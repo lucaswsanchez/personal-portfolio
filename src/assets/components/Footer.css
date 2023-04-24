@@ -1,0 +1,28 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 5px;
+  padding-top: 15px;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.footer-icons a:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
+.footer-text p {
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+}
