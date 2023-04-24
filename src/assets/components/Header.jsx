@@ -6,7 +6,12 @@ const Header = () => {
     <div className="header-container">
       <div className="header-text">
         <div className="header-name">
-          <h1><span className="white">Lucas</span> <span className="green">Sanchez</span></h1>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <h1>
+              <span className="white">Lucas</span>{" "}
+              <span className="green">Sanchez</span>
+            </h1>
+          </Link>
         </div>
         <div className="header-list">
           <ul className="header-ul">

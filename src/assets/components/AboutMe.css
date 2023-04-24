@@ -44,7 +44,7 @@
   align-items: center;
   padding-left: 15px;
   padding-right: 15px;
-  border-top: 3px solid #27ae60;
+  border-top: 3px solid rgb(39, 174, 96);
 }
 
 .tech-skills-images {
@@ -55,6 +55,14 @@
   flex-wrap: wrap;
   padding: 60px;
   border-bottom: 3px solid #27ae60;
+}
+
+.icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transition-duration: 0.2s;
 }
 
 .about-me-soft-skills {

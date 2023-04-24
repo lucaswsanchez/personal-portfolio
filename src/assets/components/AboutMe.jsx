@@ -34,49 +34,49 @@ const AboutMe = () => {
           <div className="tech-skills-text">
             <ul>
               <li>
-                <AiFillCaretRight color="#27ae60" size={12} /> JavaScript
+                <AiFillCaretRight color="#27ae60" size={10} /> JavaScript
               </li>
               <li>
-                <AiFillCaretRight color="#27ae60" size={12} /> HTML, CSS
+                <AiFillCaretRight color="#27ae60" size={10} /> HTML, CSS
               </li>
               <li>
-                <AiFillCaretRight color="#27ae60" size={12} /> Bootstrap
+                <AiFillCaretRight color="#27ae60" size={10} /> Bootstrap
               </li>
               <li>
-                <AiFillCaretRight color="#27ae60" size={12} /> React: Router,
+                <AiFillCaretRight color="#27ae60" size={10} /> React: Router,
                 Redux, Context
               </li>
               <li>
-                <AiFillCaretRight color="#27ae60" size={12} /> Git & Github
+                <AiFillCaretRight color="#27ae60" size={10} /> Git & Github
               </li>
               <li>
-                <AiFillCaretRight color="#27ae60" size={12} />
+                <AiFillCaretRight color="#27ae60" size={10} />
                 Experiencia en uso de APIs externas para la creación de
                 aplicaciones web.
               </li>
               <li>
-                <AiFillCaretRight color="#27ae60" size={12} />
+                <AiFillCaretRight color="#27ae60" size={10} />
                 Habilidades avanzadas en diseño y maquetación de interfaces de
                 usuario, incluyendo experiencia en desarrollo responsive para
                 múltiples dispositivos.
               </li>
               <li>
-                <AiFillCaretRight color="#27ae60" size={12} />
+                <AiFillCaretRight color="#27ae60" size={10} />
                 Resolución de problemas, programación orientada a objetos,
                 arquitectura de software.
               </li>
             </ul>
           </div>
           <div className="tech-skills-images">
-            <IoLogoJavascript size={50} color="#F7DF1E" />
-            <AiFillHtml5 size={50} color="#E34F26" />
-            <IoLogoCss3 size={50} color="#1572B6" />
-            <BsFillBootstrapFill size={50} color="#8512F7" />
-            <GrReactjs size={50} color="#61DAFB" />
-            <SiRedux size={50} color="#8F73BE" />
-            <BsGit size={50} color="#F05033" />
-            <FaGithubSquare size={50} color="white" />
-            <ImMobile size={50} color="#F0E2C7" />
+            <IoLogoJavascript className="icon" size={50} color="#F7DF1E" />
+            <AiFillHtml5 className="icon" size={50} color="#E34F26" />
+            <IoLogoCss3 className="icon" size={50} color="#1572B6" />
+            <BsFillBootstrapFill className="icon" size={50} color="#8512F7" />
+            <GrReactjs className="icon" size={50} color="#61DAFB" />
+            <SiRedux className="icon" size={50} color="#8F73BE" />
+            <BsGit className="icon" size={50} color="#F05033" />
+            <FaGithubSquare className="icon" size={50} color="white" />
+            <ImMobile className="icon" size={50} color="#F0E2C7" />
           </div>
         </div>
         <h3 className="green">HABILIDADES BLANDAS</h3>
@@ -87,20 +87,20 @@ const AboutMe = () => {
           <div className="soft-skills-text">
             <ul>
               <li>
-                <AiFillCaretRight color="#27ae60" size={12} /> Colaboración{" "}
+                <AiFillCaretRight color="#27ae60" size={10} /> Colaboración{" "}
               </li>
               <li>
-                <AiFillCaretRight color="#27ae60" size={12} /> Comunicación{" "}
+                <AiFillCaretRight color="#27ae60" size={10} /> Comunicación{" "}
               </li>
               <li>
-                <AiFillCaretRight color="#27ae60" size={12} /> Adaptabilidad{" "}
+                <AiFillCaretRight color="#27ae60" size={10} /> Adaptabilidad{" "}
               </li>
               <li>
-                <AiFillCaretRight color="#27ae60" size={12} /> Pensamiento
+                <AiFillCaretRight color="#27ae60" size={10} /> Pensamiento
                 crítico{" "}
               </li>
               <li>
-                <AiFillCaretRight color="#27ae60" size={12} /> Gestión del
+                <AiFillCaretRight color="#27ae60" size={10} /> Gestión del
                 tiempo
               </li>
             </ul>
