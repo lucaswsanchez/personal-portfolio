@@ -17,10 +17,10 @@ const Projects = () => {
               <h5>E-COMMERCE</h5>
               <ul>
                 <li>
-                  <li>
-                    <AiFillCaretRight color="#27ae60" size={10} />
-                    Desarrollado con React
-                  </li>
+                  <AiFillCaretRight color="#27ae60" size={10} />
+                  Desarrollado con React
+                </li>
+                <li>
                   <AiFillCaretRight color="#27ae60" size={10} />
                   Carrito de compras
                 </li>
