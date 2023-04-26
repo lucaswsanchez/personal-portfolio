@@ -1,4 +1,4 @@
-import "./Contact.css";
+import "../styles/Contact.css";
 import { useState, useEffect } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { ToastContainer, toast } from "react-toastify";
@@ -34,7 +34,7 @@ const Contact = () => {
   }, [state.succeeded]);
 
   return (
-    <div className="contact-container">
+    <div className="contact-container fade-in-fwd">
       <form onSubmit={handleSubmit} className="form-container">
         <h3>
           <span className="green">CONTACTA CONMIGO</span>

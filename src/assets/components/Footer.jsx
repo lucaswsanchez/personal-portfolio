@@ -1,11 +1,11 @@
-import "./Footer.css";
+import "../styles/Footer.css";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="footer-container">
-      <div className="footer-icons">
+    <div className="footer-container ">
+      <div className="footer-icons slide-in-blurred-bottom">
         <a href="https://www.linkedin.com/in/lucaswsanchez/" target="_blank">
           <FaLinkedin size={30} color="#27ae60" />
         </a>
@@ -13,7 +13,7 @@ const Footer = () => {
           <FaGithubSquare size={30} color="#27ae60" />
         </a>
       </div>
-      <div className="footer-text">
+      <div className="footer-text slide-in-blurred-bottom">
         <p>Copyright © 2023 by Lucas Sanchez | All Rights Reserved</p>
       </div>
     </div>

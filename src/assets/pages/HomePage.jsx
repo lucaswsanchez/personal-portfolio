@@ -1,11 +1,11 @@
-import "./HomePage.css";
+import "../styles/HomePage.css";
 import image from "../images/portfolio-image.png";
 
 const HomePage = () => {
   return (
     <div className="home-page-container">
       <div className="home-page-text">
-        <div className="home-page-introduction">
+        <div className="home-page-introduction fade-in-fwd">
           <h5>BIENVENIDO A MI PORTAFOLIO</h5>
           <p className="home-page-name">Soy Lucas Sanchez</p>
           <p className="home-page-developer">
@@ -20,7 +20,11 @@ const HomePage = () => {
         </div>
       </div>
       <div className="home-page-image">
-        <img src={image} alt="portfolio-image" />
+        <img
+          className="fade-in-fwd"
+          src={image}
+          alt="portfolio-image"
+        />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import "./Projects.css";
+import "../styles/Projects.css";
 import { AiFillCaretRight } from "react-icons/ai";
 import Proyecto1 from "../images/Proyecto1.png";
 import Proyecto2 from "../images/Proyecto2.png";
@@ -9,7 +9,7 @@ const Projects = () => {
     <div className="projects-container">
       <div>
         <div className="projects">
-          <div className="project">
+          <div className="project fade-in-fwd">
             <figure>
               <img src={Proyecto1} alt="Nombre del proyecto" />
             </figure>
@@ -65,7 +65,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="project">
+          <div className="project fade-in-fwd">
             <figure>
               <img src={Proyecto2} alt="Nombre del proyecto" />
             </figure>
@@ -105,7 +105,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="project">
+          <div className="project fade-in-fwd">
             <figure>
               <img src={Proyecto3} alt="Nombre del proyecto" />
             </figure>

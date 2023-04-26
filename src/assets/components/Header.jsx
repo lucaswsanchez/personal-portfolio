@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import "./Header.css";
+import "../styles/Header.css";
 
 const Header = () => {
   return (
     <div className="header-container">
-      <div className="header-text">
+      <div className="header-text slide-in-blurred-top">
         <div className="header-name">
           <Link to="/" style={{ textDecoration: "none" }}>
             <h1>

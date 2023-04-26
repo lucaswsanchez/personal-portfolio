@@ -1,0 +1,118 @@
+.header-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px 0 20px 0;
+}
+
+.header-text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.header-name {
+  width: 30%;
+}
+
+.white {
+  color: white;
+}
+
+.green {
+  color: #27ae60;
+}
+
+.header-list {
+  width: 70%;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-ul li {
+  list-style: none;
+}
+
+.header-ul .link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.link:hover {
+  color: #27ae60;
+}
+
+.header-ul li:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
+@media screen and (max-width: 985px) {
+  .header-text {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .header-name {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-list {
+    width: 100%;
+  }
+}
+
+/* ANIMATIONS */
+
+.slide-in-blurred-top {
+  -webkit-animation: slide-in-blurred-top 1s cubic-bezier(0.23, 1, 0.32, 1) both;
+  animation: slide-in-blurred-top 1s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+@-webkit-keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}

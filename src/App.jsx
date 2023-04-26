@@ -1,9 +1,9 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import AboutMe from "./assets/components/AboutMe";
-import Contact from "./assets/components/Contact";
-import Projects from "./assets/components/Projects";
-import HomePage from "./assets/components/HomePage";
+import AboutMe from "./assets/pages/AboutMe";
+import Contact from "./assets/pages/Contact";
+import Projects from "./assets/pages/Projects";
+import HomePage from "./assets/pages/HomePage";
 import Header from "./assets/components/Header";
 import Footer from "./assets/components/Footer";
 

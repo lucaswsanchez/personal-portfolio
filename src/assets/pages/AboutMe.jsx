@@ -1,4 +1,4 @@
-import "./AboutMe.css";
+import "../styles/AboutMe.css";
 import { GrReactjs } from "react-icons/gr";
 import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io";
 import { AiFillHtml5 } from "react-icons/ai";
@@ -12,7 +12,7 @@ import SoftSkillsImage from "../images/soft-skills-image.png";
 
 const AboutMe = () => {
   return (
-    <div className="about-me-container">
+    <div className="about-me-container fade-in-fwd">
       <div className="about-me-introduction">
         <p>
           ¡Hola! Mi nombre es Lucas Sanchez y soy un apasionado desarrollador
@@ -23,9 +23,9 @@ const AboutMe = () => {
           atractivos, sino que también brinden una experiencia de usuario fluida
           y fácil de usar. Mi enfoque principal es en el desarrollo front-end,
           pero en este momento me encuentro expandiendo mis conocimientos al
-          área de back-end con C# .NET. Me encanta estar al día con las últimas tendencias y
-          tecnologías, y siempre estoy buscando nuevas formas de mejorar mi
-          trabajo. ¡Gracias por visitar mi portafolio!
+          área de back-end con C# .NET. Me encanta estar al día con las últimas
+          tendencias y tecnologías, y siempre estoy buscando nuevas formas de
+          mejorar mi trabajo. ¡Gracias por visitar mi portafolio!
         </p>
       </div>
       <div className="about-me-habilities">
