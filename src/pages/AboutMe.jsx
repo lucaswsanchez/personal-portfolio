@@ -8,7 +8,7 @@ import { BsGit } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import { ImMobile } from "react-icons/im";
 import { AiFillCaretRight } from "react-icons/ai";
-import SoftSkillsImage from "../images/soft-skills-image.png";
+import SoftSkillsImage from "../assets/images/soft-skills-image.png";
 
 const AboutMe = () => {
   return (
@@ -23,9 +23,9 @@ const AboutMe = () => {
           atractivos, sino que también brinden una experiencia de usuario fluida
           y fácil de usar. Mi enfoque principal es en el desarrollo front-end,
           pero en este momento me encuentro expandiendo mis conocimientos al
-          área de back-end con C# .NET. Me encanta estar al día con las últimas
-          tendencias y tecnologías, y siempre estoy buscando nuevas formas de
-          mejorar mi trabajo. ¡Gracias por visitar mi portafolio!
+          área de back-end con PHP y Laravel. Me encanta estar al día con las
+          últimas tendencias y tecnologías, y siempre estoy buscando nuevas
+          formas de mejorar mi trabajo. ¡Gracias por visitar mi portafolio!
         </p>
       </div>
       <div className="about-me-habilities">
@@ -37,6 +37,9 @@ const AboutMe = () => {
                 <AiFillCaretRight color="#27ae60" size={10} /> JavaScript
               </li>
               <li>
+                <AiFillCaretRight color="#27ae60" size={10} /> TypeScript
+              </li>
+              <li>
                 <AiFillCaretRight color="#27ae60" size={10} /> HTML, CSS
               </li>
               <li>
@@ -45,6 +48,9 @@ const AboutMe = () => {
               <li>
                 <AiFillCaretRight color="#27ae60" size={10} /> React: Router,
                 Redux, Context
+              </li>
+              <li>
+                <AiFillCaretRight color="#27ae60" size={10} /> Firebase
               </li>
               <li>
                 <AiFillCaretRight color="#27ae60" size={10} /> Git & Github
@@ -87,17 +93,17 @@ const AboutMe = () => {
           <div className="soft-skills-text">
             <ul>
               <li>
-                <AiFillCaretRight color="#27ae60" size={10} /> Colaboración{" "}
+                <AiFillCaretRight color="#27ae60" size={10} /> Colaboración
               </li>
               <li>
-                <AiFillCaretRight color="#27ae60" size={10} /> Comunicación{" "}
+                <AiFillCaretRight color="#27ae60" size={10} /> Comunicación
               </li>
               <li>
-                <AiFillCaretRight color="#27ae60" size={10} /> Adaptabilidad{" "}
+                <AiFillCaretRight color="#27ae60" size={10} /> Adaptabilidad
               </li>
               <li>
                 <AiFillCaretRight color="#27ae60" size={10} /> Pensamiento
-                crítico{" "}
+                crítico
               </li>
               <li>
                 <AiFillCaretRight color="#27ae60" size={10} /> Gestión del

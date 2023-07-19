@@ -27,7 +27,11 @@
   font-size: 12px;
 }
 
-/* ANIMATIONS */
+@media screen and (max-width: 375px) {
+  .footer-text p {
+    font-size: 9px;
+  }
+}
 
 .slide-in-blurred-bottom {
   -webkit-animation: slide-in-blurred-bottom 1s cubic-bezier(0.23, 1, 0.32, 1)

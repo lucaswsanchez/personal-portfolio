@@ -98,8 +98,31 @@
 }
 
 @media screen and (max-width: 377px) {
+  .home-page-container {
+    width: 100%;
+  }
+
+  .home-page-text {
+    width: 98vw;
+  }
+
+  .home-page-introduction {
+    gap: 8px;
+  }
+
   .home-page-name {
-    font-size: 28px;
+    font-size: 27px;
+  }
+
+  .home-page-developer {
+    font-size: 21px;
+  }
+
+  .cv-btn {
+    font-size: 13px;
+  }
+
+  .home-page-image img {
+    width: 250px;
   }
 }
-

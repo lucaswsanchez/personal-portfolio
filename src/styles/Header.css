@@ -69,7 +69,19 @@
   }
 }
 
-/* ANIMATIONS */
+@media screen and (max-width: 375px) {
+  .header-container {
+    width: 100%;
+  }
+
+  .header-list {
+    width: 100%;
+  }
+
+  .header-ul .link {
+    font-size: 10px;
+  }
+}
 
 .slide-in-blurred-top {
   -webkit-animation: slide-in-blurred-top 1s cubic-bezier(0.23, 1, 0.32, 1) both;

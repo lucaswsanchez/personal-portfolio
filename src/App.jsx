@@ -1,11 +1,11 @@
-import "./App.css";
+import "./styles/App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import AboutMe from "./assets/pages/AboutMe";
-import Contact from "./assets/pages/Contact";
-import Projects from "./assets/pages/Projects";
-import HomePage from "./assets/pages/HomePage";
-import Header from "./assets/components/Header";
-import Footer from "./assets/components/Footer";
+import AboutMe from "./pages/AboutMe";
+import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
+import HomePage from "./pages/HomePage";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (

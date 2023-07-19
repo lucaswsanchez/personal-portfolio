@@ -157,3 +157,33 @@
     padding-top: 30px;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .about-me-container {
+    width: 100%;
+  }
+
+  .about-me-introduction {
+    padding-top: 15px;
+    font-size: 12px;
+  }
+
+  .about-me-habilities ul li {
+    line-height: 2.5;
+    text-align: justify;
+  }
+
+  .about-me-education p {
+    font-size: 12px;
+  }
+
+  .tech-skills-images {
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .soft-skills-images img {
+    width: 100%;
+    padding: 10px;
+  }
+}

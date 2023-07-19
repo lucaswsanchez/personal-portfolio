@@ -107,3 +107,19 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 300px) {
+  .contact-container {
+    height: 100%;
+    padding-bottom: 30px;
+  }
+
+
+  .form-container h3 {
+    font-size: 18px;
+  }
+
+  .submit {
+    padding: 5px;
+  }
+}
